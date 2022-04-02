@@ -12,6 +12,7 @@
   "dependencies": {
     "gsap": "^3.6.1",
     "imagesloaded": "^4.1.4",
+    "locomotive-scroll": "^4.1.4",
     "parcel": "1.12.3",
     "splitting": "^1.0.6"
   }
