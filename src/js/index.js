@@ -1,6 +1,8 @@
 import { Cursor } from './cursor';
 import { Grid } from './grid';
 import { preloadImages } from './utils';
+import connectx from './connect';
+
 
 // custom cursor
 const cursor = new Cursor(document.querySelector('.cursor'));
@@ -23,3 +25,13 @@ preloadImages('.grid__item-img').then(() => {
     link.addEventListener('mouseenter', () => cursor.enter());
     link.addEventListener('mouseleave', () => cursor.leave());
 });
+
+var btn = document.getElementById("connect");
+btn.addEventListener("click", function() {
+    console.log("something")
+    connectx.then((value)=> {
+        console.log(value)
+        location.href = '../select.html';
+    })
+    
+}, false);
