@@ -1,31 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="https://use.typekit.net/gyf5muf.css">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/base.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/pricing.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/goy3tuq.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-
-    <title>Document</title>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+    <title>NFT Art Gallery</title>
     <script src="https://unpkg.com/web3@latest/dist/web3.min.js"></script>
     <script>document.documentElement.className = "js"; var supportsCssVars = function () { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e }; supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
-
+    
 </head>
-
-<body>
-    <!-- <script src="js/index.js"></script> -->
-    <a class="one" id="one">pay 0.01 eth to museum</a>
-    <button class="one" id="two">pay 0.02 eth to museum</button>
-    <button class="one" id="three">pay 0.03 eth to museum</button>
-
-    <!-- <script src="js/index.js"></script> -->
-    <script src="js/smartFunctions.js"></script>
+<body class="bgimg" >
+    <div class=" w3-display-container w3-grayscale-min" id="home">
+        <h2 id="title">Art is Only for the Rich </h2>
+        <div class="hover-table-layout">
+            <div class="listing-item one" id="one" >
+                <figure class="image">
+                    <img src="img/home/home3.jpg" alt="image">
+                    <figcaption>
+                      <div class="caption">
+                        <h1>0.002 Eth</h1>
+                        <p>15 minutes</p>
+                        </div>
+                    </figcaption>
+                </figure>
+                <div class="listing">
+                    <h4>Standard</h4>
+                    <!-- <h4>Email signatures and banners</h4>
+                    <h4>E-invitations</h4>
+                    <h4>Online brochures</h4> -->
+                </div>
+            </div>
+            <div class="listing-item two" id="two">
+                <figure class="image">
+                    <img src="img/home/home2.jpg" alt="image">
+                    <figcaption>
+                       <div class="caption">
+                        <h1>0.08 Eth</h1>
+                        <p>1 hour</p>
+                        </div>
+                    </figcaption>
+                </figure>
+                <div class="listing">
+                    <h4>Premium</h4>
+                    <!-- <h4>Company logos for online listings</h4>
+                    <h4>Product categories</h4>
+                    <h4>Using the ADIPEC logo on exhibitor advertising</h4>
+                    <h4>Commercial opportunities in the preview and show dailies</h4> -->
+                </div>
+            </div>
+            <div class="listing-item three" id="three">
+                <figure class="image">
+                    <img src="img/home/home4.jpg" alt="image">
+                    <figcaption>
+                       <div class="caption">
+                        <h1>0.1 Eth</h1>
+                        <p>As long as you like</p>
+                        </div>
+                    </figcaption>
+                </figure>
+                <div class="listing">
+                    <h4>Supreme</h4>
+                    <!-- <h4>Order visitor badges</h4>
+                    <h4>Global meetings programme</h4>
+                    <h4>Get Social</h4> -->
+                </div>
+            </div>
+        </div>
+       
+    </div>
+    <div class="w3-sand w3-grayscale w3-large">
+    
+        <script src="js/smartFunctions.js"></script>
+  
 </body>
-
 </html>

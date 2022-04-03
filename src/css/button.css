@@ -1,0 +1,114 @@
+/* Google Font CDN Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  height: 100vh;
+  background: #f2f2f2;
+  overflow: hidden;
+}
+.container{
+  position: fixed;
+  z-index: 100;
+  right: 30px;
+  bottom: 30px;
+}
+
+.container .box{
+  background: #fff;
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  padding: 15px 25px 15px 15px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  animation: show_box 0.8s ease forwards;
+}
+@keyframes show_box {
+  0%{
+    transform: translateX(100%);
+  }
+  40%{
+    transform: translateX(-5%);
+  }
+  80%{
+    transform: translateX(0%);
+  }
+  100%{
+    transform: translateX(-10px);
+  }
+}
+#hide:checked ~ .box{
+  animation: hide_box 0.8s ease forwards;
+}
+@keyframes hide_box {
+  0%{
+    transform: translateX(0%);
+  }
+  40%{
+    transform: translateX(5%);
+  }
+  80%{
+    transform: translateX(0%);
+  }
+  100%{
+    transform: translateX(calc(100% + 35px ));
+  }
+}
+.container .box i{
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  color: #666;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.container i:hover{
+  color: #000;
+}
+.container .logo{
+  height: 90px;
+  width: 90px;
+  margin-right: 15px;
+}
+.container .logo img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.box .right{
+  display: flex;
+  flex-direction: column;
+}
+.box .right .text-1{
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+.box .right .text-2{
+  font-size: 14px;
+  color: #666;
+  margin: 2px 0 8px 0;
+}
+.box .right a{
+  font-size: 18px;
+  font-weight: 500;
+  display: block;
+  padding: 8px 0;
+  background: #a7690b;
+  border-radius: 6px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+.box .right a:hover{
+  background-color: #03bde2;
+}
+.container #hide{
+  display: none;
+} 
