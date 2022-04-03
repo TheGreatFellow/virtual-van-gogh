@@ -1,42 +1,29 @@
 // import Web3 from "web3"
-import Web3 from "web3"
-import abi from "../../secret/abi/abi.json"
+// import abi from "../../secret/abi/abi.json"
 
 // const web3 = new Web3(Web3.givenProvider);
+let web3 = new Web3(window.ethereum)
 
 
-    const connectx = new Promise ((res, rej) => {
-    if(window.web3 != "undefined") {
-        res('connect')
-    }
-    if(window.etheruem != "undefined") {
-        window.ethereum.enable().then(() => {
-            res(new Web3(window.ethereum))
-        }).catch(e=> {
-            rej(e)
+const connectx = () => new Promise ((res, rej) => {
+    if(window.ethereum !== undefined) {
+        web3.eth.getAccounts((e,accounts) => {
+            if(accounts.length > 0){
+                res()
+            } else {
+                window.ethereum.request({method: "eth_requestAccounts"}).then(() => {
+                    res()
+                }).catch(e=> {
+                    rej(e)
+                })
+            }
         })
+    } else {
+        rej("Install MetaMask")
     }
-    
     // let web3 = new Web3(window.ethereum)
     // let web3 = new Web3(Web3.givenProvider)
-    console.log('this is a promise' )
     // let contract = new web3.eth.Contract(abi, "0xcC32dB54a697fEc47050a4A96d35A78Ba09f4dfD")
-    rej("connect metamask")
-})
-
-//     const connecty = new Promise ((res, rej) => {
-//     if(typeof window.ethereum == "undefined") {
-//         rej("Install metamask")
-//     }
-//     window.ethereum.request({method: "eth_requestAccounts"})
-//     // let web3 = new Web3(window.ethereum)
-//     // let web3 = new Web3(Web3.givenProvider)
-//     console.log('this is a promise' )
-//     // let contract = new web3.eth.Contract(abi, "0xcC32dB54a697fEc47050a4A96d35A78Ba09f4dfD")
-//     rej("connect metamask")
-    
-    
-//     res('connect')
-// })
+}) 
 
 export default connectx
