@@ -22,6 +22,9 @@ There will be an entry fee to enter the virtual galleria. They can choose among 
 ![image](https://user-images.githubusercontent.com/53618733/161411299-a3f6474a-511c-4108-a668-33e8912ecdad.png)
 
 ![image](https://user-images.githubusercontent.com/53618733/161411358-aeee8af4-21a6-47b0-bd9c-ab4c4458cc8b.png)
+![WhatsApp Image 2022-04-03 at 09 58 02](https://user-images.githubusercontent.com/53618733/161411537-5af57a1c-2db1-4963-bfab-ea6962682124.jpeg)
+
+
 ![WhatsApp Image 2022-04-03 at 09 50 09](https://user-images.githubusercontent.com/53618733/161411315-88da11ad-d32e-43d7-ba8c-334826461ed9.jpeg)
 ![825508b2-02b5-4cbb-b032-ca1fce0c645b](https://user-images.githubusercontent.com/53618733/161411329-ef90c4f0-6989-48aa-a68c-dd71e3d5a9e6.jpg)
 ![image](https://user-images.githubusercontent.com/53618733/161411415-3ab571fc-493c-409b-8bf3-d2a931eb3242.png)
