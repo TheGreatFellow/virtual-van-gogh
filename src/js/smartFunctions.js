@@ -12,7 +12,7 @@ import abi from "../../secret/abi/abi.json"
         web3.eth.getAccounts().then((accounts) => {
         	contract.methods.sendToMany(["0x917a68cC6F5C0CcEC69C9C0b3Bd9A4A88573b38C","0x8Df125c833645119A6e4383c1805945eF7754Ef4"], [divAmount, divAmount]).send({from: accounts[0], value: totalAmount}).then((data)=> {
                 console.log(data)
-                location.href = "../Build_1/index.html"
+                location.href = "http://127.0.0.1:5500/src/Final_Build/index.html"
             })
 
     })

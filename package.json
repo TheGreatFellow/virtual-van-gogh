@@ -16,5 +16,10 @@
     "parcel": "1.12.3",
     "splitting": "^1.0.6",
     "web3": "^1.7.1"
-  }
+  },
+  "compress": {
+    "brotli": {
+        "enabled": false
+    }
+}
 }
