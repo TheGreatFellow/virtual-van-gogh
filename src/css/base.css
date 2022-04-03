@@ -18,7 +18,7 @@ main {
 }
 p {
 	font-family: brother-1816, sans-serif;
-	font-size: 20px;
+	font-size: 19px;
 	
 }
 body {
@@ -618,7 +618,7 @@ a:focus {
 
 
 .intro__title-main {
-	font-size: 7vw;
+	font-size: 8vw;
 	font-family: ivypresto-display, serif;
 	font-weight: 400;
 	margin: 0;
@@ -629,5 +629,5 @@ a:focus {
 }
 
 .main-para {
-	font-size: 3vw;
+	font-size: 3.1vw;
 }
