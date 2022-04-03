@@ -26,12 +26,20 @@ preloadImages('.grid__item-img').then(() => {
     link.addEventListener('mouseleave', () => cursor.leave());
 });
 
+let web3 = new Web3(window.ethereum)
 var btn = document.getElementById("connect");
-btn.addEventListener("click", function() {
-    console.log("something")
-    connectx.then((value)=> {
-        console.log(value)
-        location.href = '../select.html';
+
+if(window.ethereum !== undefined){
+    web3.eth.getAccounts((e,accounts) => {
+        if(accounts.length != 0){
+            btn.innerHTML = "Enter the Museum"
+        }
     })
+}
+
+btn.addEventListener("click", function() {
+    connectx().then(()=> {
+        location.href = '../select.html';
+    }).catch(e => console.log(e))
     
 }, false);
