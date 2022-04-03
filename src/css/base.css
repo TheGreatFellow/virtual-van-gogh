@@ -14,9 +14,13 @@ main {
 	height: 100%;
 	width: 100%;
 	position: relative;
-	font-family: "Inconsolata", sans-serif;
+	
 }
-
+p {
+	font-family: brother-1816, sans-serif;
+	font-size: 20px;
+	
+}
 body {
 	margin: 0;
 	--color-text: #000;
@@ -176,6 +180,7 @@ a:focus {
 .grid__item {
 	position: relative;
 	will-change: transform;
+	
 	grid-area: var(--grid-row) / var(--grid-column) / span 12 / span 5;
 }
 
@@ -187,6 +192,7 @@ a:focus {
 	background-position: 50% 50%;
 	border-radius: 10px;
 	will-change: transform;
+	
 }
 
 .char {
@@ -349,6 +355,7 @@ a:focus {
 	font-weight: 500;
 	padding-left: 90px;
 	margin-bottom: 1rem;
+	transform: translate(0%, -50px);
 	background: url(../img/arrow.svg) no-repeat 0% 50%;
 }
 
@@ -357,7 +364,7 @@ a:focus {
 	font-family: dystopian, sans-serif;
 	font-size: 6vw;
 	/* font-size: clamp(1.5rem,12vw,20vh); */
-	margin: 0;
+	
 	grid-column-start: 1;
 	align-self: center;
 	padding-left: 1rem;
@@ -382,6 +389,7 @@ a:focus {
 	height: 100%;
 	background-size: cover;
 	background-position: 50% 50%;
+	/* transform: translate(0px, -10%); */
 }
 
 .preview__item-content {
@@ -602,4 +610,24 @@ a:focus {
 
 .connect-wallet-container img {
   padding-bottom: 20px;
+}
+
+.brown {
+	color: #2acee0;
+}
+
+
+.intro__title-main {
+	font-size: 7vw;
+	font-family: ivypresto-display, serif;
+	font-weight: 400;
+	margin: 0;
+	line-height: 0.9;
+	pointer-events: none;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+.main-para {
+	font-size: 3vw;
 }
