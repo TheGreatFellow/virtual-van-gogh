@@ -28,11 +28,12 @@ preloadImages('.grid__item-img').then(() => {
 
 let web3 = new Web3(window.ethereum)
 var btn = document.getElementById("connect");
+var game1 = document.getElementById("game");
 
 if(window.ethereum !== undefined){
     web3.eth.getAccounts((e,accounts) => {
         if(accounts.length != 0){
-            btn.innerHTML = "Enter the Museum"
+            btn.innerHTML = "Enter Museum"
         }
     })
 }
@@ -41,5 +42,11 @@ btn.addEventListener("click", function() {
     connectx().then(()=> {
         location.href = '../select.html';
     }).catch(e => console.log(e))
+    
+}, false);
+game1.addEventListener("click", function() {
+    
+        location.href = 'https://virtual-van-gogh-museum-demo.vercel.app/';
+   
     
 }, false);
