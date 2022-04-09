@@ -28,7 +28,7 @@ body {
 	--color-text: #000;
 	--color-text-alt: #848484;
 	--color-title: #d3d3d3;
-	--color-bg: #DCDCDC;
+	--color-bg: #fdf9f9;
 	--color-link: #E3154D;
 	--color-link-hover: #000;
 	color: var(--color-text);
