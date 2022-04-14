@@ -373,7 +373,7 @@ a:focus {
 	position: relative;
 	overflow: hidden;
 	pointer-events: none;
-	mix-blend-mode: color-burn;
+	/* mix-blend-mode: color-burn; */
 	z-index: 100;
 }
 
