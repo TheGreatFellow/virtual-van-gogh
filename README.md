@@ -5,7 +5,7 @@
 There’s a huge push towards NFTs and virtual art that everyone is buzzing about. Even the top art experts agree that this new virtual space for art is going to revolutionize the industry in huge ways. The market for non-fungible tokens surged to $41 billion in 2021, easily comparable to the conventional art market $50 billion in 2020.
 
 
-```"But how do you appreciate this 'Art'? While in-person galleries aren’t going away, virtual art galleries are the way to go."```
+### "But how do you appreciate this 'Art'? While in-person galleries aren’t going away, virtual art galleries are the way to go."
 
 We thought of building building a virtual gallery. virtual galleries are offering people expanded accessibility, incredible digital experiences, and a new way to enjoy fine works and up and coming artists. 
 
@@ -18,7 +18,7 @@ There will be an entry fee to enter the virtual galleria. They can choose among 
 ### front-end - Vanilla.js, Parcel
 ### Gallery Environment - Unity3D
 ### Blockchain - Solidity, Ethereum, Web3.js
-## Installation
+
 
 # ScreentShots
 
@@ -31,6 +31,8 @@ There will be an entry fee to enter the virtual galleria. They can choose among 
 ![WhatsApp Image 2022-04-03 at 09 50 09](https://user-images.githubusercontent.com/53618733/161411315-88da11ad-d32e-43d7-ba8c-334826461ed9.jpeg)
 ![825508b2-02b5-4cbb-b032-ca1fce0c645b](https://user-images.githubusercontent.com/53618733/161411329-ef90c4f0-6989-48aa-a68c-dd71e3d5a9e6.jpg)
 ![image](https://user-images.githubusercontent.com/53618733/161411415-3ab571fc-493c-409b-8bf3-d2a931eb3242.png)
+
+## Installation
 
 Install dependencies:
 
