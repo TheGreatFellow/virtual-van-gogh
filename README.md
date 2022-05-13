@@ -10,7 +10,7 @@ There’s a huge push towards NFTs and virtual art that everyone is buzzing abou
 We thought of building a virtual gallery. virtual galleries are offering people expanded accessibility, incredible digital experiences, and a new way to enjoy fine works and up and coming artists. 
 
 # How we do it
-There will be an entry fee to enter the virtual galleria. They can choose among the 3 plans we have right now. You can view various hand picked nfts from the best of the world. The amount spent on seeing each artwork will be recorded. At the end of the visit, your entrance fee will be divided and distributed among the artists. The amount each of the artist recieves will be propotional to the amount of time a user spends looking at their artwork.
+There will be an entry fee to enter the virtual galleria. They can choose among the 3 plans we have right now. You can view various hand picked nfts from the best of the world fetched dynamically. The amount spent on seeing each artwork will be recorded. At the end of the visit, your entrance fee will be divided and distributed among the artists. The amount each of the artist recieves will be propotional to the amount of time a user spends looking at their artwork.
 
 
 # Tech Stack
